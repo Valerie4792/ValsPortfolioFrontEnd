@@ -1,0 +1,265 @@
+
+.navContactBtn{
+  background-color: #47574a;
+  border-color: #395245;
+  height: max-content;
+  font-family: Radio Canada;
+
+
+
+}
+.navContactBtn:hover{
+  background-color: #647c6f;
+  border-color: #395245;
+  font-family: Radio Canada;
+
+}
+
+body, html{
+
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-repeat: none;
+  background-size: cover;
+  background: rgb(160,192,145);
+  background: linear-gradient(180deg, rgba(160,192,145,1) 0%, rgba(160,192,145,0.14751838235294112) 49%);
+}
+.navBorder{
+  border-bottom:  5px;;
+  border-color: white;
+}
+.valerie{
+  padding-left: 20px;
+  font-family: Radio Canada;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0rem;
+  padding-bottom: 0rem;
+ z-index: 1;
+
+}
+.about{
+  font-family: Radio Canada;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 60px;
+  color: white;
+
+}
+.navLinkColor{
+  color: white;
+  font-weight: 500;
+  font-family: Radio Canada;
+  font-size: large;
+}
+.navLinkColor:hover{
+  color:#395245
+}
+.lampImg{
+  opacity: 50%;
+  height: 500px;
+  width: 800PX;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+
+}
+.imgCol{
+  margin-top: 5rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+  .line {
+    border-top: 10px solid white; /* Adjust thickness as needed */
+    width: 45%; /* Adjust width as needed */
+    margin: 0rem;
+    padding-bottom: 2rem;
+     /* Adjust spacing as needed */
+   
+  }
+  .aboutLine{
+    border-top: 8px solid white; /* Adjust thickness as needed */
+    width: 18%; /* Adjust width as needed */
+    margin: 0rem;
+    padding-bottom: 3rem;
+    
+  }
+
+  .lineNav{
+    border-top: 5px solid white; 
+    width: 100%; 
+    margin: 0rem;
+    padding-bottom: 0rem;
+
+  }
+.homeTxtBold{
+ 
+  font-family: Radio Canada;
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 5rem;
+ padding-left: 1rem;
+  color: #DAF8BC
+
+}
+.homeTxtReg{
+ 
+  font-family: Radio Canada;
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 5rem;
+  padding-left: 1rem;
+  color: #EDFCE8;
+
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+.containerHomeBg{
+  background-image: url('/src/assets/bgimages/homeBG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.arrowDwnBtn{
+  display: flex;
+  justify-content: end;
+  height: 60px;
+  width: 60px;
+  margin: 80px;
+
+}
+.aboutBG{
+ margin-bottom: 0;
+ padding: 0;
+}
+.aboutPic{
+  margin-left: 3rem;
+  height: 450px;
+  width: 320px;
+  opacity: 80%;
+  margin-bottom: 5rem;
+}
+.aboutBold{
+
+  font-family: Radio Canada;
+  font-weight: 900;
+  font-size: 45px;
+  margin-left: 5rem;
+ padding-left: 1rem;
+  color: #3c5126
+  
+}
+.aboutReg{
+  font-family: Radio Canada;
+  font-weight: 400;
+  font-size: 40px;
+  margin-left: 0rem;
+  padding-left: 0rem;
+  color: #3c5126;
+  margin-bottom: 5rem;
+}
+
+.projectsHeader{
+  font-family: Radio Canada;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-left: 3rem;
+  color: white;
+
+}
+.projectLine{
+  border-top: 8px solid white; /* Adjust thickness as needed */
+  width: 15%; /* Adjust width as needed */
+  margin-top: 0;
+  margin-left: 3rem;
+  padding-bottom: 3rem;
+
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+}
+
+.carousel {
+  max-width: 600px; /* Adjust the maximum width of the carousel */
+  margin: 0 auto;
+}
+
+.description-container {
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.icon-container {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  
+  width: 100%;
+  height: 100vh;
+
+}
+
+.icon1 {
+ margin: 1rem;
+  padding: 1rem;
+  width: 120px;
+  height: 120px;
+  animation: float 3s infinite ease-in-out;
+  outline: none; 
+  background-color: transparent; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+.icon2{
+  margin: 0rem;
+  padding: 1rem;
+  width: 250px;
+  height: 100px;
+  animation: float 3s infinite ease-in-out;
+  outline: none; 
+  background-color: transparent;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+
+}
+.formContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+}
+.dwnArrw{
+  height: 60px;
+  width: 60px;
+}
+
