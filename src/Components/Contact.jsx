@@ -4,7 +4,7 @@ import Nav1 from './Nav1'
 
 const Contact = () => {
   return (
-    <>
+    <div className='containerContactBg'>
     <Nav1/>
   <Container className='m-5 p-5'>
     <Row>
@@ -34,14 +34,14 @@ const Contact = () => {
         <Form.Control as="textarea" rows={3} />
       </Form.Group>
     </Form>
-   <Button>Submit</Button>
+   <Button className='submitContactBtn'>Submit</Button>
       </Col>
     </Row>
 
   </Container>
     
   
-</>
+</div>
   
     
   )

@@ -16,24 +16,16 @@ const Home1 = () => {
 
   return (
     <div className="containerHomeBg m-0 p-0">
-      <Container-Fluid>
+      <Container>
         <Nav1 />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <Row>
-          <Col md={12} className="valerie mt-5">
+    
+        <Row className="spaceHome">
+          <Col md={12} className="valerieBody mt-5">
             <div className="text-container m-5 p-5">
               <div className="line"></div>
-              <h1>{"<VALERIE/>"}</h1>
+              <h1 className="valerieBody">{"<VALERIE/>"}</h1>
             </div>
           </Col>
-          {/* 
-        <Col md={4} className=" m-5 p-1 imgCol">
-          <Image src={lampImg} className="lampImg" />
-        </Col>  */}
         </Row>
         <Row>
           <Col>
@@ -49,7 +41,7 @@ const Home1 = () => {
             <Image onClick={handleSubmit} src={arrowDwn} />
           </Col>
         </Row>
-      </Container-Fluid>
+      </Container>
     </div>
   );
 };

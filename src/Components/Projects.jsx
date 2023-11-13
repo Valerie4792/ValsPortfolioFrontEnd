@@ -64,7 +64,7 @@ const Projects = () => {
   };
 
   return (
-    <Container fluid>
+    <Container fluid className="containerProjectsBg">
       <Nav1 />
 
       <h1 className="projectsHeader">PROJECTS</h1>

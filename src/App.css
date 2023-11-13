@@ -4,9 +4,15 @@
   border-color: #395245;
   height: max-content;
   font-family: Radio Canada;
-
-
-
+}
+.submitContactBtn{
+  background-color: #47574a;
+  border-color: #395245;
+  height: max-content;
+  font-family: Radio Canada;
+}
+.navMediaMargin{
+  padding: 5rem;
 }
 .navContactBtn:hover{
   background-color: #647c6f;
@@ -22,6 +28,7 @@ body, html{
   padding: 0;
   background-repeat: none;
   background-size: cover;
+  background-attachment: scroll;
   background: rgb(160,192,145);
   background: linear-gradient(180deg, rgba(160,192,145,1) 0%, rgba(160,192,145,0.14751838235294112) 49%);
 }
@@ -30,7 +37,7 @@ body, html{
   border-color: white;
 }
 .valerie{
-  padding-left: 20px;
+
   font-family: Radio Canada;
   font-weight: 800;
   font-size: 40px;
@@ -38,16 +45,48 @@ body, html{
   display: flex;
   align-items: flex-end;
   margin-top: 0rem;
+
   padding-bottom: 0rem;
  z-index: 1;
 
 }
+.valerieBody{
+
+  font-family: Radio Canada;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 0rem;
+
+  padding-bottom: 0rem;
+ z-index: 1;
+
+}
+
 .about{
   font-family: Radio Canada;
   font-weight: 400;
   font-size: 40px;
   margin-top: 60px;
   color: white;
+
+}
+.skills{
+  font-family: Radio Canada;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 60px;
+  color: white;
+}
+.skillsLine{
+  border-top: 8px solid white; 
+  width: 18%; 
+  margin-left: 10px;
+
+
+ 
 
 }
 .navLinkColor{
@@ -79,16 +118,16 @@ body, html{
 
 
   .line {
-    border-top: 10px solid white; /* Adjust thickness as needed */
-    width: 45%; /* Adjust width as needed */
+    border-top: 10px solid white; 
+    width: 45%; 
     margin: 0rem;
     padding-bottom: 2rem;
-     /* Adjust spacing as needed */
+
    
   }
   .aboutLine{
-    border-top: 8px solid white; /* Adjust thickness as needed */
-    width: 18%; /* Adjust width as needed */
+    border-top: 8px solid white; 
+    width: 18%; 
     margin: 0rem;
     padding-bottom: 3rem;
     
@@ -131,11 +170,42 @@ body, html{
   background-image: url('/src/assets/bgimages/homeBG.png');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   margin: 0;
   padding: 0;
   height: 100vh;
 }
+.containerSkillsBg{
+ 
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: scroll;
+  background: rgb(192, 180, 145);
+  background: linear-gradient(180deg, rgb(180, 141, 215) 0%, rgba(183, 120, 198, 0.24) 49%);
+}
+.containerProjectsBg{
+ 
+  margin: 0;
+  height: 100%;
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: scroll;
+  background: rgb(145, 185, 192);
+  background: linear-gradient(180deg, rgb(142, 217, 219) 0%, rgba(110, 196, 197, 0.324) 49%);
+}
+.containerContactBg{
+  background-image: url('/src/assets/bgimages/pinkKeyboard.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
 .arrowDwnBtn{
   display: flex;
   justify-content: end;
@@ -185,8 +255,8 @@ body, html{
 
 }
 .projectLine{
-  border-top: 8px solid white; /* Adjust thickness as needed */
-  width: 15%; /* Adjust width as needed */
+  border-top: 8px solid white; 
+  width: 15%; 
   margin-top: 0;
   margin-left: 3rem;
   padding-bottom: 3rem;
@@ -199,13 +269,13 @@ body, html{
 }
 
 .carousel {
-  max-width: 600px; /* Adjust the maximum width of the carousel */
+  max-width: 600px; 
   margin: 0 auto;
 }
 
 .description-container {
   text-align: center;
-  margin-top: 20px; /* Adjust the margin as needed */
+  margin-top: 20px; 
 }
 
 .icon-container {
@@ -262,4 +332,70 @@ body, html{
   height: 60px;
   width: 60px;
 }
+.spaceHome{
+  margin-top: 60px;
+}
 
+@media (max-width: 425px) {
+  .valerieBody {
+   display: flex;
+   justify-content: center;
+  }
+}
+@media (max-width: 991px) {
+  .valerie {
+    display: flex;
+    justify-content: center;
+    font-family: Radio Canada;
+    font-weight: 800;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 0rem;
+  
+  
+    padding-bottom: 0rem;
+   z-index: 1;
+  }
+}
+@media (max-width: 768px) {
+  .containerHomeBg {
+    height: 100%; /* Adjust the height as needed */
+  }
+  .aboutMediaQ{
+  
+   align-items: center;
+
+  }
+  .aboutMedia{
+    font-size: 35px;
+  }
+  .aboutMediaBold{
+    font-size: 30px;
+  }
+  .aboutMediaReg{
+    font-size: 28px;
+  }
+  .navMedia768{
+    margin:4px;
+  }
+  .navMediaMargin{
+    margin: 2px;
+    padding: 2px;
+  }
+  .valerie{
+    margin-left: 30px;
+  }
+  .aboutPic{
+    height: 60%;
+    width: 100%;
+
+    
+  }
+  .FloatingIconsContain{
+    margin-top: 210px;
+
+  }
+  
+}
