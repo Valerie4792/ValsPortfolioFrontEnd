@@ -23,12 +23,12 @@ const Home1 = () => {
           <Col md={12} className="valerieBody mt-5">
             <div className="text-container m-5 p-5">
               <div className="line"></div>
-              <h1 className="valerieBody">{"<VALERIE/>"}</h1>
+              <h1 className="valerieBody valAnimation">{"<VALERIE/>"}</h1>
             </div>
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="homeTxtBody">
             <p className="homeTxtBold">A Front-End Web Developer</p>
             <p className="homeTxtReg">Imagine it. Design it. Create it.</p>
           </Col>

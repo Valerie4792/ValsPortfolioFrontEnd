@@ -25,21 +25,21 @@ const images = [
   {
     image: DealNoDeal,
     description:
-      "mario themed Deal or No Deal game built in Unity using C# language",
+      "Mario themed Deal or No Deal game built in Unity using C# language",
   },
   {
     image: DadJokes,
     description:
-      "simple project written in js, pulls dad jokes from a pre-built api, Simpson themed",
+      "Simple project written in js, pulls dad jokes from a pre-built api, Simpson themed",
   },
   {
     image: DigitalClock,
     description:
-      "digital clock built in Unity, written in C#, Adventure Time Themed",
+      "Digital clock built in Unity, written in C#, Adventure Time Themed",
   },
   {
     image: MagicEightBall,
-    description: "magic 8 ball game built in Unity, c#, Bob's Burger Theme",
+    description: "Magic 8 ball game built in Unity, c#, Bob's Burger Theme",
   },
   {
     image: SimpleCalc,

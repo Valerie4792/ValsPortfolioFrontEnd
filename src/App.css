@@ -50,8 +50,7 @@ body, html{
  z-index: 1;
 
 }
-.valerieBody{
-
+.valerieBody {
   font-family: Radio Canada;
   font-weight: 800;
   font-size: 40px;
@@ -59,12 +58,38 @@ body, html{
   display: flex;
   align-items: flex-end;
   margin-top: 0rem;
-
   padding-bottom: 0rem;
- z-index: 1;
-
+  z-index: 1;
+  position: relative;
+  animation: valerieslideIn 1s ease-out forwards; /* Correct the animation name */
 }
 
+@keyframes valerieslideIn {
+  from {
+    left: -70%;
+  }
+  to {
+    left: 0; 
+  }
+}
+.homeTxtBody {
+  animation: homeTxtSlideIn 1s ease-out forwards;
+}
+
+@keyframes homeTxtSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+  .description-text{
+    color: rgb(80, 127, 145)
+  }
 .about{
   font-family: Radio Canada;
   font-weight: 400;
@@ -225,6 +250,20 @@ body, html{
   opacity: 80%;
   margin-bottom: 5rem;
 }
+.animated-pic {
+  position: relative;
+  right: -100%; /* Initially positioned outside the viewport on the right */
+  animation: slideIn 1s ease-out forwards; /* Animation duration, timing function, and fill mode */
+}
+
+
+
+@keyframes slideIn {
+  to {
+    right: 0; /* Move the image to the right edge of the viewport */
+  }
+ 
+}
 .aboutBold{
 
   font-family: Radio Canada;
@@ -335,6 +374,12 @@ body, html{
 .spaceHome{
   margin-top: 60px;
 }
+.form-control{
+  background-color: #ffffff54;
+}
+.contactTextColor{
+  color: rgb(253, 249, 249);
+}
 
 @media (max-width: 425px) {
   .valerieBody {
@@ -391,10 +436,11 @@ body, html{
     height: 60%;
     width: 100%;
 
-    
   }
+
   .FloatingIconsContain{
     margin-top: 210px;
+    margin-bottom: 210px;
 
   }
   

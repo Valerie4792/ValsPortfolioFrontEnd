@@ -27,7 +27,7 @@ const About = () => {
           </p>
         </Col>
         <Col md={5}>
-          <Image src={helloPic} className="aboutPic" />
+          <Image src={helloPic} className="aboutPic animated-pic" />
         </Col>
         <Row>
           <Col className="arrowDwnBtn mx-5">

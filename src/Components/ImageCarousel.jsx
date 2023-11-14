@@ -15,12 +15,12 @@ const ImageCarousel = ({ images }) => {
         <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
           {images.map((image, index) => (
             <Carousel.Item key={index}>
-              <img className="d-block w-100" src={image.image} alt={`Slide ${index}`} />
+              <img className="d-block w-100" style={{ height: '400px', width:'600px' }}src={image.image} alt={`Slide ${index}`} />
             </Carousel.Item>
           ))}
         </Carousel>
         <div className="description-container">
-          <h3>{images[currentIndex].description}</h3>
+          <h3 className='description-text'>{images[currentIndex].description}</h3>
         </div>
       </div>
     );
