@@ -15,17 +15,17 @@ import Contact from './Components/Contact';
 
 
 function App() {
-  const [count, setCount] = useState(0)
+const [currentPage, setCurrentPage] = useState('home')
 
   return (
      
 <BrowserRouter>
    <Routes>
-   <Route path="/" element={<Home1/>}/>
-   <Route path="/About" element={<About/>}/>
-   <Route path="/Projects" element={<Projects/>}/>
-   <Route path="/Skills" element={<Skills/>}/>
-   <Route path="/Contact" element={<Contact/>}/>
+   <Route path="/" element={<Home1 onPageChange={() => handlePageChange('home')}/>}/>
+   <Route path="/About" element={<About onPageChange={() => handlePageChange('about')}/>}/>
+   <Route path="/Projects" element={<Projects onPageChange={() => handlePageChange('projects')}/>}/>
+   <Route path="/Skills" element={<Skills onPageChange={() => handlePageChange('skills')}/>}/>
+   <Route path="/Contact" element={<Contact onPageChange={() => handlePageChange('contact')}/>}/>
    </Routes>
 </BrowserRouter>
 

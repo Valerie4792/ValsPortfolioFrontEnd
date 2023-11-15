@@ -29,10 +29,54 @@ margin:0;
   background-repeat: none;
   background-size: cover;
   overflow: hidden;
+/* 
+  background: rgb(160,192,145);
+  background: linear-gradient(180deg, rgba(160,192,145,1) 0%, rgba(160,192,145,0.14751838235294112) 49%); */
+}
 
+
+
+/*TESTING Backgrounds */
+
+body.home {
+  background-image: url('/src/assets/bgimages/homeBG.png');
+}
+
+body.about {
   background: rgb(160,192,145);
   background: linear-gradient(180deg, rgba(160,192,145,1) 0%, rgba(160,192,145,0.14751838235294112) 49%);
 }
+
+body.projects {
+  background-image: url('/src/assets/bgimages/orangeComputer.png');
+}
+
+body.skills {
+  background: rgb(192, 180, 145);
+  background: linear-gradient(180deg, rgb(180, 141, 215) 0%, rgba(183, 120, 198, 0.24) 49%);
+}
+
+body.contact {
+  background-image: url('/src/assets/bgimages/pinkKeyboard.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .navBorder{
   border-bottom:  5px;;
   border-color: white;
@@ -192,7 +236,7 @@ margin:0;
   align-items: flex-start;
   margin-left: 5rem;
 }
-.containerHomeBg{
+/* .containerHomeBg{
   background-image: url('/src/assets/bgimages/homeBG.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -200,8 +244,8 @@ margin:0;
   margin: 0;
   padding: 0;
   height: 100vh;
-}
-.containerSkillsBg{
+} */
+/* .containerSkillsBg{
  
   margin: 0;
   height: 100%;
@@ -211,23 +255,23 @@ margin:0;
   background-attachment: scroll;
   background: rgb(192, 180, 145);
   background: linear-gradient(180deg, rgb(180, 141, 215) 0%, rgba(183, 120, 198, 0.24) 49%);
-}
-.containerProjectsBg{
+} */
+/* .containerProjectsBg{
  
   margin: 0;
   background-repeat: none;
-  /* background-size: cover; */
+  background-size: cover;
   background-attachment: scroll;
   overflow: hidden;  
   width: 100%;
   height: 100%;
   background-size: cover;
   object-fit: cover;
-  /* background-image: url('/src/assets/bgimages/orangeComputer.png'); */
+  background-image: url('/src/assets/bgimages/orangeComputer.png');
 
-}
+} */
 
-.containerContactBg{
+/* .containerContactBg{
   background-image: url('/src/assets/bgimages/pinkKeyboard.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -235,7 +279,7 @@ margin:0;
   margin: 0;
   padding: 0;
   height: 100vh;
-}
+} */
 
 .arrowDwnBtn{
   display: flex;

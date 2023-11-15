@@ -4,8 +4,13 @@ import { useNavigate } from "react-router-dom";
 import Nav1 from "./Nav1";
 import arrowDwn from "/src/assets/bgimages/arrowDwn.png";
 import homeBG from "/src/assets/bgimages/homeBG.png";
+import React, { useEffect } from 'react';
 
-const Home1 = () => {
+const Home1 = ({onPageChange}) => {
+  useEffect(()=>{
+    onPageChange();
+  },[onPageChange])
+
   let navigate = useNavigate();
   const handleSubmit = () => {
     navigate("/about");
