@@ -31,6 +31,7 @@ const images = [
     image: DadJokes,
     description:
       "Simple project written in js, pulls dad jokes from a pre-built api, Simpson themed",
+    imageLink: "https://victorious-sea-06267761e.4.azurestaticapps.net/",
   },
   {
     image: DigitalClock,
@@ -44,16 +45,23 @@ const images = [
   {
     image: SimpleCalc,
     description: "Hello Kitty themed simple calculator using JS",
+    imageLink: "https://zealous-field-090dd4a1e.4.azurestaticapps.net/",
   },
   {
     image: ToDoList,
     description:
       "To do list built using JS and VS code. Themed like old Type Writer",
+    imageLink: "https://yellow-stone-03edb411e.4.azurestaticapps.net/",
   },
-  { image: Top10, description: "Adam Sandler Top 10 movie website" },
+  {
+    image: Top10,
+    description: "Adam Sandler Top 10 movie website",
+    imageLink: "https://brave-desert-04a76a81e.4.azurestaticapps.net/",
+  },
   {
     image: WeatherApp,
     description: "Weather App built using JS, pulls data from a weather api",
+    imageLink: "https://gray-stone-0f4208c1e.4.azurestaticapps.net/",
   },
 ];
 

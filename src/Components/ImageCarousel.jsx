@@ -14,7 +14,7 @@ const ImageCarousel = ({ images }) => {
       <div className="carousel-container">
         <Carousel activeIndex={currentIndex} onSelect={handleSelect}>
           {images.map((image, index) => (
-            <Carousel.Item key={index}>
+            <Carousel.Item key={index} onClick={()=> window.open(images[currentIndex].imageLink)}>
               <img className="d-block w-100" style={{ height: '400px', width:'600px' }}src={image.image} alt={`Slide ${index}`} />
             </Carousel.Item>
           ))}
